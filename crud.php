@@ -11,9 +11,35 @@ table{
 td{
     border: 1px solid lightblue;
 }
+a.btn{
+    border: 1px solid lawngreen;
+    padding: 5px 15px;
+    border-radius: 8px;
+    display: inline-block;
+    margin: 5px;
+    box-shadow: 2px 2px 10px green;
+    background-color: skyblue;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    transition: all 0.5S;
+}
+
+
+a.btn:hover{
+    text-decoration: underline;
+    background-color:pink;
+    position: relative;
+    top:-5px;
+    transform:scale(1.1);
+    transition: all 0.5S;
+}
+
 </style>
 
 <h1>學生列表</h1>
+<a class="btn" href="insert_form.php">新增學生資料</a>
+
 <table>
     <tr>
         <td>序號</td>
