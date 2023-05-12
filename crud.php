@@ -15,7 +15,6 @@ table{
 
 td{
     border: 1px solid lightblue;
-
 }
 
 
@@ -53,7 +52,6 @@ foreach($rows as $row){
         <td><?=$row['telphone'];?></td>
         <td><?=$row['major'];?></td>
         <td><?=$row['secondary'];?></td>
-            </tr>
     <?php
 }
    ?>
