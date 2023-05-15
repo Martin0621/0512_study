@@ -74,7 +74,7 @@ foreach($rows as $row){
         <td><?=$row['telphone'];?></td>
         <td><?=$row['major'];?></td>
         <td><?=$row['secondary'];?></td>
-        <td>編輯</td>
+        <td><a href="edit_form.php?id=<?=$row['id']?>">編輯</a></td>
         <td><a href="./del.php?id=<?=$row['id']?>">刪除</a></td>
         <!-- <td><a href="#" onclick="alert('確定刪除嗎?')">刪除</a> </td> -->
     <?php
